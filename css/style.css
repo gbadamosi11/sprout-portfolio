@@ -1,0 +1,261 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* PHONE */
+     .container{
+          height: 200vh;
+          background-image:linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url(../img/web-development.jpg);
+          background-size: cover;
+     }
+     .header{
+          text-align: center;
+          color: white;
+     }
+     .img-container{
+          padding: 30px;
+     }
+     .img{
+          height: 200px;
+          width: 200px;
+          border-radius: 50%;
+          border: 8px solid white;
+     }
+     .main-heading{
+          font-size: 38px;
+          font-weight: 900;
+          text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-transform: capitalize;
+          letter-spacing: 3px;
+          font-family: Ultra;
+     }
+     .sub-heading{
+          font-size: 16px;
+          margin: 10px;
+          text-transform: capitalize;
+          font-weight: 400;
+     }
+     .row{
+          display: flex;
+          flex-direction: column;
+          margin-top: 40px;
+          gap: 40px;
+          justify-content: center;
+     }
+     .col-1-of-3{
+          background-color: white;
+          color: #000;
+          padding: 60px 0;
+          width: 20rem;
+          margin: 0 auto;
+     }
+     .column-main-heading{
+          font-size: 24px;
+          font-weight: 200;
+          text-transform: capitalize;
+          font-family: Ultra;
+     }
+     .column-sub-heading{
+          color: blue;
+          font-weight: 200;
+          font-size: 16px;
+          margin-top: 5px;
+          font-family: Ultra;
+     }
+     .icon-container{
+          margin-top: 30px;
+          color: #000;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 15px;
+     }
+     .icon{
+          background-color: #fff;
+          font-size: 24px;
+          /* padding: 5px 10px; */
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          font-family: Ultra;
+          font-weight: 900;
+          padding: 10px 0;
+          text-align: center;
+          cursor: pointer;
+     }
+     .fiver{
+          font-size: 11px;
+          padding: 18px 0;
+     }
+/* IPAD */
+@media only screen and (min-width: 768px){
+     .container{
+          height: 200vh;
+          background-image:linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url(../img/web-development.jpg);
+          background-size: cover;
+     }
+     .header{
+          text-align: center;
+          color: white;
+     }
+     .img-container{
+          padding: 30px;
+     }
+     .img{
+          height: 250px;
+          width: 250px;
+          border-radius: 50%;
+          border: 8px solid white;
+     }
+     .main-heading{
+          font-size: 48px;
+          font-weight: 900;
+          text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-transform: capitalize;
+          letter-spacing: 5px;
+          font-family: Ultra;
+     }
+     .sub-heading{
+          font-size: 20px;
+          margin: 15px;
+          text-transform: capitalize;
+          font-weight: 400;
+     }
+     .row{
+          display: flex;
+          flex-direction: column;
+          margin-top: 40px;
+          gap: 40px;
+          justify-content: center;
+     }
+     .col-1-of-3{
+          background-color: white;
+          color: #000;
+          padding: 80px 0;
+          width: 30rem;
+          margin: 0 auto;
+     }
+     .column-main-heading{
+          font-size: 34px;
+          font-weight: 400;
+          text-transform: capitalize;
+          font-family: Ultra;
+     }
+     .column-sub-heading{
+          color: blue;
+          font-weight: 300;
+          font-size: 24px;
+          margin-top: 5px;
+          font-family: Ultra;
+     }
+
+     .icon-container{
+          margin-top: 50px;
+          color: #000;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 15px;
+     }
+     .icon{
+          background-color: #fff;
+          font-size: 30px;
+          /* padding: 8px 18px; */
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          font-family: Ultra;
+          font-weight: 900;
+          cursor: pointer;
+          margin: auto 0;
+     }
+     .fiver{
+          font-size: 13px;
+          padding: 20px 0;
+     }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1200px){
+     .container{
+          height: 100vh;
+          background-image:linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url(../img/web-development.jpg);          background-size: cover;
+     }
+     .header{
+          text-align: center;
+          color: white;
+     }
+     .img-container{
+          padding-top: 30px;
+     }
+     .img{
+          height: 15%;
+          width: 15%;
+          border-radius: 50%;
+          border: 8px solid white;
+     }
+     .main-heading{
+          font-size: 50px;
+          font-weight: 900;
+          text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+          text-transform: capitalize;
+          letter-spacing: 5px;
+          font-family: Ultra;
+     }
+     .sub-heading{
+          font-size: 16px;
+          margin: 10px;
+          text-transform: capitalize;
+          font-weight: 400;
+     }
+     .row{
+          display: flex;
+          flex-direction: row;
+          margin-top: 25px;
+     }
+     .col-1-of-3{
+          background-color: white;
+          color: #000;
+          padding: 40px 0;
+          width: 22rem;
+          margin: 0 -10px;
+     }
+     .column-main-heading{
+          font-size: 28px;
+          font-weight: 500;
+          text-transform: capitalize;
+          font-family: Ultra;
+     }
+     .column-sub-heading{
+          color: blue;
+          font-weight: 400;
+          font-size: 20px;
+          margin-top: 5px;
+          font-family: Ultra;
+     }
+     .icon-container{
+          margin-top: 100px;
+          color: #000;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 15px;
+     }
+     .icon{
+          background-color: #fff;
+          font-size: 32px;
+          /* padding: 8px 18px; */
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          font-family: Ultra;
+          font-weight: 900;
+          padding: 15px 0;
+          cursor: pointer;
+     }
+     .fiver{
+          font-size: 16px;
+          padding: 25px 0;
+     }
+}
